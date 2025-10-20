@@ -38,5 +38,5 @@ $$
 Probabilidad de que al menos dos cartas sean del mismo palo:
 
 $$
-P(\text{envido >= 20})= 1 - 0.4057 \approx 0,5943
+P(\text{envido} \ge 20)= 1 - 0.4057 \approx 0,5943
 $$
