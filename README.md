@@ -6,14 +6,14 @@ ___
 
 ## Cuál es la probabilidad de ganar el envido teniendo 28?
 
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/be23f43b-81af-4b8d-9779-790c711f6e90" />
+<img alt="image" src="./src/milito.png" />
 
-En la [notebook](https://github.com/vickyguar/prob-frecuencial/blob/main/simulacion.ipynb) se realiza una simulación que estima que la probabilidad de ganar el envido con 28 es aproximadamente 0,84. Hay un pico en el histograma de frecuencias en 7 (ojo ahora en 6, revisar!), que se da porque en cada mano estoy obligando a elegir el valor más alto. Esto no quiere decir que sea el valor que se cante en el envido, porque se puede expresar "mesa" para decir que no se tiene ni 20 en caso de que no hayan 2 cartas del mismo palo, por ejemplo. Esto está simulado para jugar al envido en casos de que se juegue 1 vs 1, y está pendiente la simulación para el envido en equipos para el truco de a 4 o 6.
+En la [notebook](https://github.com/vickyguar/prob-frecuencial/blob/main/simulacion.ipynb) se realiza una simulación que estima que la probabilidad de ganar el envido con 28 es aproximadamente 0,86. Hay un pico en el histograma de frecuencias en 7, que se da porque en cada mano estoy obligando a elegir el valor más alto. Esto no quiere decir que sea el valor que se cante en el envido, porque uno puede expresar "mesa" para decir que no se tiene ni 20 en caso de que no hayan 2 cartas del mismo palo, por ejemplo. Esto está simulado para jugar al envido en casos de que se juegue 1 vs 1.
 
 ___
-## Probabilidad de tener al menos dos cartas del mismo palo
+## Probabilidad de tener envido
 
-Por otro lado, si calculamos las probabilidades de que hayan dos cartas del mismo palo (y llegar a los 20 puntos) tomando tres cartas, podemos hacer esta cuenta:
+Por otro lado, si calculamos las probabilidades de que hayan dos cartas del mismo palo (y llegar al menos a los 20 puntos) tomando tres cartas, podemos hacer esta cuenta:
 
 **Total de combinaciones posibles de 3 cartas**:
 
