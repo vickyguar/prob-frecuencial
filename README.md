@@ -2,8 +2,6 @@
 
 Esta simulacion fue una idea del taller *"No tengo ni 20: un ejemplo de los significados de probabilidad"*, dictado por el Mgtr. Guillermo Sabino en la II Jornada de Enseñanza de la Estadística.
 
-___
-
 ## Cuál es la probabilidad de ganar el envido teniendo 28?
 
 <img height=200 alt="image" src="./src/milito.png" /> <img height=200 alt="image" src="./src/imagen.jpg" />
